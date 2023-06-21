@@ -1,0 +1,13 @@
+* {
+    font-family: 'Trirong', serif;
+    background-color: #121212;
+    color: #fff;
+}
+
+
+.container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}

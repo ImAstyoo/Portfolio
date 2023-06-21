@@ -1,0 +1,16 @@
+._profileImage{
+    object-fit: cover;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#divImg{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
