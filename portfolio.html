@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <title>This is me !</title>
     <link rel="stylesheet" href="/src/scss/_sidebar.css">
+    <link rel="stylesheet" href="/src/scss/_main/Profile%20Image.css">
+    <link rel="stylesheet" href="/src/scss/_main/_smlinks.css">
+    <link rel="stylesheet" href="/src/scss/_main/_typewriter.css">
+    <link rel="stylesheet" href="/src/scss/_main/_main.css">
     <link rel="stylesheet" href="/src/scss/_global.css">
-    <link rel="stylesheet" href="/src/scss/_profile-image.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300&family=Trirong:ital,wght@0,400;0,700;1,400;1,700&display=swap"
@@ -29,26 +32,40 @@
     <div class="container" id="namediv">
         <!-------------Profile Image---------------->
         <div id="divImg">
-            <img class="_profileImage" src="src/imgs/cropped.jpg" alt="Profile Photo !">
+            <img class="_profileImage" src="src/imgs/mpic.jpg" alt="Profile Photo !">
         </div>
         <h1>Daniele Pervan</h1>
+        <!-------------Typewriter---------------->
         <div class="typewriter">
-            <p class="_typewriter" data-period="2000"
+            <p class="_typewriter" data-period="10"
                data-type='[ "Ciao, sono Daniele.", "Mi piace programmare."]'>
                 <span class="wrap"></span>
             </p>
         </div>
+        <div>
 
+            <!-------------Social Media Icons Links---------------->
+            <ul class="container _smIconContainer">
+                <li class="_smIcon">
+                    <a href="https://www.linkedin.com/in/daniele-pervan-0595011b3/">
+                        <img src="src/imgs/soclogs/LI-In-Bug.png" alt="LinkedIn">
+                    </a>
+                </li>
+                <li class="_smIcon">
+                    <a href="https://github.com/ImAstyoo">
+                        <img src="src/imgs/soclogs/github-mark-white.png" alt="GitHub">
+                    </a>
+                </li>
+                <li class="_smIcon">
+                    <a href="https://www.instagram.com/_dqni._/">
+                        <img src="src/imgs/soclogs/instagram.png" alt="Instagram">
+                    </a>
+                </li>
+            </ul>
+        </div>
     </div>
 
-    <!-------------Social Media Icons Links---------------->
-    <div>
-        <ul>
-            <li><a href="https://www.linkedin.com/in/daniele-pervan-0595011b3/">LinkedIn</a></li>
-            <li><a href="https://github.com/ImAstyoo">GitHub</a></li>
-            <li><a href="https://www.instagram.com/_dqni._/">Instagram</a></li>
-        </ul>
-    </div>
+
     <!-------------Get CV---------------->
     <button>Get CV</button>
 
