@@ -1,0 +1,12 @@
+._smIcon{
+    list-style: none;
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    scale: 0.4;
+    display: flex;
+}
+
+._smIconContainer{
+    height: 100px;
+}
