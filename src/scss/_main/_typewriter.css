@@ -3,3 +3,7 @@
 .typewriter{
     height: 2rem;
 }
+
+.wrap{
+    color: var(--secondary);
+}

@@ -3,6 +3,10 @@
     height: auto;
 }
 
+#namediv > h1{
+    margin: 0;
+}
+
 #namediv h1 > span{
     color: var(--primary);
     font-size: 2rem;
