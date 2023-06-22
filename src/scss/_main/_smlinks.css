@@ -1,0 +1,19 @@
+._smiUL {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+._smIcon {
+    margin: 0.2rem;
+}
+
+._smi:hover{
+    color: var(--primary);
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+
+}

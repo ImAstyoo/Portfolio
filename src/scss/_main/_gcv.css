@@ -1,0 +1,26 @@
+.primary-color{
+    color: var(--primary);
+}
+
+#_gcvi:hover{
+    color: var(--primary);
+}
+
+
+
+._gcv:link{
+    text-decoration: none;
+}
+
+._gcv:visited{
+    text-decoration: none;
+}
+
+._gcvt:hover{
+    text-decoration: none;
+    color: var(--primary);
+}
+
+._gcv:active{
+    text-decoration: none;
+}
