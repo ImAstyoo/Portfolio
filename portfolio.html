@@ -5,8 +5,9 @@
     <title>This is me !</title>
     <script src="https://kit.fontawesome.com/da3b347f80.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/src/scss/_sidebar.css">
-    <link rel="stylesheet" href="/src/scss/_main/Profile%20Image.css">
+    <link rel="stylesheet" href="/src/scss/_main/_primg.css">
     <link rel="stylesheet" href="/src/scss/_main/_smlinks.css">
+    <link rel="stylesheet" href="/src/scss/_main/_gcv.css">
     <link rel="stylesheet" href="/src/scss/_main/_typewriter.css">
     <link rel="stylesheet" href="/src/scss/_main/_main.css">
     <link rel="stylesheet" href="/src/scss/_global.css">
@@ -15,6 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300&family=Trirong:ital,wght@0,400;0,700;1,400;1,700&display=swap"
           rel="stylesheet">
     <script src="src/js/_typewriter.js"></script>
+    <script src="src/js/_bounce.js"></script>
 </head>
 <body>
 <!-------------Navigation---------------->
@@ -35,11 +37,16 @@
         <div id="divImg">
             <img class="_profileImage" src="src/imgs/mpic.jpg" alt="Profile Photo !">
         </div>
-        <h1>Daniele Pervan</h1>
+        <h1>Dani<span>ele Per</span>van</h1>
         <!-------------Typewriter---------------->
         <div class="typewriter">
-            <p class="_typewriter" data-period="2000"
-               data-type='[ "Ciao, sono Daniele.", "Mi piace programmare."]'>
+            <p class="_typewriter" data-period="2"
+               data-type='[ "Hi, I&#39;m Daniele.",
+               "Ciao, mi chiamo Daniele",
+               "I like video games.",
+               "Mi piacciono i videogiochi",
+               "I like pizza too",
+               "Mi piace anche la pizza"]'>
                 <span class="wrap"></span>
             </p>
         </div>
@@ -49,7 +56,7 @@
             <ul class="_smiUL">
                 <li class="_smIcon">
                     <a href="https://www.linkedin.com/in/daniele-pervan-0595011b3/">
-                        <i class="fa-brands fa-linkedin _smi" ></i>
+                        <i class="fa-brands fa-linkedin _smi"></i>
                     </a>
                 </li>
                 <li class="_smIcon">
@@ -64,11 +71,20 @@
                 </li>
             </ul>
         </div>
+
+        <!-------------Get CV---------------->
+        <div class="container">
+            <a class="_gcv _gcvt"
+               href="src/cv/Daniele Pervan - Curriculum Vitae.pdf"
+               download="" onmouseover="hover()" onmouseleave="unhover()">
+                <span id="cvtxt">Download CV </span>
+                <i class="fa-solid fa-download" id="cvicon"></i>
+
+            </a>
+        </div>
+
     </div>
 
-
-    <!-------------Get CV---------------->
-    <button>Get CV</button>
 
     <!-------------About me---------------->
     <div>

@@ -2,3 +2,14 @@
     width: 100%;
     height: auto;
 }
+
+#namediv h1 > span{
+    color: var(--primary);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#namediv ._typewriter{
+    margin: 0;
+}

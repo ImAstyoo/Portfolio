@@ -12,7 +12,7 @@
 }
 
 ._smi:hover{
-    color: #FF6000;
+    color: var(--primary);
     transform: scale(1.2);
     transition: transform 0.2s ease-in-out;
 
