@@ -1,12 +1,19 @@
-._smIcon{
+._smiUL {
     list-style: none;
-    object-fit: cover;
-    width: 100px;
-    height: 100px;
-    scale: 0.4;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
-._smIconContainer{
-    height: 100px;
+._smIcon {
+    margin: 0.2rem;
+}
+
+._smi:hover{
+    color: #FF6000;
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+
 }
