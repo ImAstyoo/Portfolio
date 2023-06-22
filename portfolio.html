@@ -1,4 +1,4 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,6 +6,7 @@
     <script src="https://kit.fontawesome.com/da3b347f80.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/src/scss/_sidebar.css">
     <link rel="stylesheet" href="/src/scss/_main/_primg.css">
+    <link rel="stylesheet" href="/src/scss/_main/_abme.css">
     <link rel="stylesheet" href="/src/scss/_main/_smlinks.css">
     <link rel="stylesheet" href="/src/scss/_main/_gcv.css">
     <link rel="stylesheet" href="/src/scss/_main/_typewriter.css">
@@ -51,7 +52,6 @@
             </p>
         </div>
         <div class="container _smiContainer">
-
             <!-------------Social Media Icons Links---------------->
             <ul class="_smiUL">
                 <li class="_smIcon">
@@ -71,7 +71,6 @@
                 </li>
             </ul>
         </div>
-
         <!-------------Get CV---------------->
         <div class="container">
             <a class="_gcv _gcvt"
@@ -79,23 +78,24 @@
                download="" onmouseover="hover()" onmouseleave="unhover()">
                 <span id="cvtxt">Download CV </span>
                 <i class="fa-solid fa-download" id="cvicon"></i>
-
             </a>
         </div>
-
     </div>
 
-
     <!-------------About me---------------->
-    <div>
-        <h1>About me</h1>
-        <div>Different Profile photo</div>
-        <div>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, esse, fugiat. Natus nostrum
-                quos
-                ratione. A adipisci cum mollitia voluptate.
-            </p>
+    <div class="container">
+        <h1 id="abmh">About&nbsp;me </h1>
+        <div class="container">
+            <div>
+                <img class="_profileImage" id="_abmi" src="src/imgs/mpic.jpg" alt="Profile Photo !">
+            </div>
+            <div class="container" id="_abmt">
+                <p>
+                    I'm 20 and currently studying Computer Science at the <a id="_abml" href="http://www.unipi.it">University of Pisa</a>
+                    <br>
+                    I am a passionate worker, specialized in Software development web applications.
+                </p>
+            </div>
         </div>
     </div>
 
