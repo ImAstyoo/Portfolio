@@ -1,7 +1,4 @@
-#abmh{
-    margin-right: 70%;
-}
-
+/* Text */
 #_abmt > *{
     padding: 5px;
     margin-left: 20px;
@@ -18,6 +15,13 @@
     text-decoration: none;
     background-color: var(--darkbackground);
     color: var(--primary);
+}
+
+/* about me h1 + image */
+
+#_abmc{
+    display: flex;
+    flex-direction: column;
 }
 
 #_abmi{
