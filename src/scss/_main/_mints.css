@@ -1,0 +1,27 @@
+#_mimc{
+    display: flex;
+    flex-direction: row;
+}
+
+#_mimc > h1{
+
+}
+
+#_miul{
+    display: flex;
+    flex-direction: row;
+}
+
+#_miul > li{
+    list-style: none;
+    padding: 1.2rem;
+}
+
+#_miul > li > *,h2,i{
+    text-decoration: none;
+}
+
+#_miulc{
+    display: flex;
+    flex-direction: row;
+}

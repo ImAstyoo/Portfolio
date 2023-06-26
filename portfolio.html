@@ -4,18 +4,23 @@
     <meta charset="UTF-8">
     <title>This is me !</title>
     <script src="https://kit.fontawesome.com/da3b347f80.js" crossorigin="anonymous"></script>
+    <!-- Global css -->
+    <link rel="stylesheet" href="/src/scss/_global.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300&family=Trirong:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+          rel="stylesheet">
+    <!-- Sidebar css -->
     <link rel="stylesheet" href="/src/scss/_sidebar.css">
+    <!-- Main css -->
     <link rel="stylesheet" href="/src/scss/_main/_primg.css">
     <link rel="stylesheet" href="/src/scss/_main/_abme.css">
     <link rel="stylesheet" href="/src/scss/_main/_smlinks.css">
+    <link rel="stylesheet" href="/src/scss/_main/_mints.css">
     <link rel="stylesheet" href="/src/scss/_main/_gcv.css">
     <link rel="stylesheet" href="/src/scss/_main/_typewriter.css">
     <link rel="stylesheet" href="/src/scss/_main/_main.css">
-    <link rel="stylesheet" href="/src/scss/_global.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300&family=Trirong:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-          rel="stylesheet">
+    <!-- Scripts -->
     <script src="src/js/_typewriter.js"></script>
     <script src="src/js/_bounce.js"></script>
 </head>
@@ -43,11 +48,8 @@
         <div class="typewriter">
             <p class="_typewriter" data-period="2"
                data-type='[ "Hi, I&#39;m Daniele.",
-               "Ciao, mi chiamo Daniele",
                "I like video games.",
-               "Mi piacciono i videogiochi",
-               "I like pizza too",
-               "Mi piace anche la pizza"]'>
+               "I like pizza too"]'>
                 <span class="wrap"></span>
             </p>
         </div>
@@ -82,37 +84,49 @@
         </div>
     </div>
 
-    <!-------------About me---------------->
     <div class="container">
-        <div class="container">
-            <div class="container" id="_abmc">
-                <h1 id="abmh">About&nbsp;me </h1>
-                <img class="_profileImage" id="_abmi" src="src/imgs/mpic.jpg" alt="Profile Photo !">
-            </div>
-            <div class="container" id="_abmt">
+        <!-------------About me---------------->
+        <div class="container" id="_abmmc">
+<!--            <div class="container" id="_abmc">-->
+
+<!--                <h1>About&nbsp;me </h1>-->
+<!--                <img class="_profileImage" id="_abmi" src="src/imgs/mpic.jpg" alt="Profile Photo !">-->
+<!--            </div>-->
+            <div class="container darkbackground">
                 <p>
-                    I'm 20 and currently studying Computer Science at the <a id="_abml" href="http://www.unipi.it">University of Pisa</a>
+                    I'm 20 and currently studying Computer Science at the <a id="_abml" href="http://www.unipi.it">University
+                    of Pisa</a>
                     <br>
                     I am a passionate worker, specialized in Software development web applications.
                 </p>
             </div>
         </div>
-    </div>
-
-    <!-------------My interests---------------->
-    <div>
-        <h1>My interests</h1>
-        <div>
-            <ul>
-                <li><a href="Coding">Coding</a></li>
-                <li><a href="Music">Music</a></li>
-                <li><a href="Games">Games</a></li>
-                <li><a href="Networking">Networking</a></li>
-                <li><a href="Board Games">Board Games</a></li>
-                <li><a href="Problem Solving">Problem Solving</a></li>
-                <li><a href="Motorbikes">Motorbikes</a></li>
-                <li><a href="Diving">Diving</a></li>
-            </ul>
+        <!-------------My interests---------------->
+        <div class="container" id="_mimc">
+            <div class="container">
+                <ul id="_miul">
+                    <li><div class="container primary-color">
+                        <h2>Coding</h2>
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    </li>
+                    <li><div class="container">
+                            <h2>Networking</h2>
+                            <i class="fa-solid fa-terminal"></i>
+                        </div>
+                    </li>
+                    <li><div class="container primary-color">
+                            <h2>Music</h2>
+                            <i class="fa-solid fa-music"></i>
+                        </div>
+                    </li>
+                    <li><div class="container">
+                            <h2>Motorbikes</h2>
+                            <i class="fa-solid fa-person-biking"></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 
