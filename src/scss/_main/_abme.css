@@ -1,0 +1,27 @@
+/* Text */
+
+#_abmh{
+    float: left;
+}
+
+#_abml{
+    text-decoration: none;
+    background-color: var(--darkbackground);
+    color: var(--primary);
+}
+
+#_abmmc{
+}
+
+/* about me h1 + image */
+
+#_abmc{
+    display: flex;
+    flex-direction: column;
+}
+
+#_abmi{
+    width: 10rem;
+    height: 10rem;
+}
+

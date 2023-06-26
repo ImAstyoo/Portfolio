@@ -7,14 +7,34 @@
 
 :root{
     --primary: #FF6000;
-    --secondary: #FFA559;
+    --secondary: #454545;
     --text: #FFF;
     --background: #121212;
+    --darkbackground: #070707;
 }
 
-.container {
-    display: block;
+@media screen and (max-width: 1000px){
+    #abmh{
+        margin-right: 0%;
+    }
+
+}
+
+.grid{
+    -webkit-box-pack: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.container > *{
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
