@@ -1,12 +1,6 @@
-.primary-color{
-    color: var(--primary);
-}
-
 #_gcvi:hover{
     color: var(--primary);
 }
-
-
 
 ._gcv:link{
     text-decoration: none;

@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="/src/scss/_main/_mints.css">
     <link rel="stylesheet" href="/src/scss/_main/_gcv.css">
     <link rel="stylesheet" href="/src/scss/_main/_typewriter.css">
+    <link rel="stylesheet" href="/src/scss/_main/_work.css">
     <link rel="stylesheet" href="/src/scss/_main/_main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -84,7 +85,6 @@
             </a>
         </div>
     </div>
-
     <div class="container">
         <!-------------About me---------------->
         <div class="container" id="_abmmc">
@@ -132,7 +132,6 @@
             </div>
         </div>
     </div>
-
     <!-------------Experience---------------->
     <div class="container" id="_expmaincontainer">
         <div class="container" id="_explang">
@@ -175,7 +174,7 @@
             </div>
         </div>
         <div class="container" id="_expfrmwk">
-            <h2>Frameworks&nbsp;&&nbsp;Architectures</h2>
+            <h2 class="primary-color">Frameworks&nbsp;&&nbsp;Architectures</h2>
             <div class="dark-background">
                 <ul class="expul">
                     <li class="expli">
@@ -247,86 +246,106 @@
     </div>
 
     <!-------------Work Experience---------------->
-    <div>
-        <h1>Work Experience</h1>
-        <section>
-            <h2>Solidity Developer</h2>
-            <div>
-                <h3>HomeMeal&nbsp;GmbH, Berlin</h3>
-                <p class="JobsDate">September 2022 - January 2023</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, neque!</p>
-            </div>
-        </section>
+    <div class="container block">
+        <h1 id="_work-experience-h1">Work Experience</h1>
+        <div class="container flex" id="_workbigcontainer">
+            <a href="https://www.linkedin.com/company/homemealdeal/">
+                <div class="container dark-background card">
+                    <div class="container card-body">
+                        <h2 class="card-title">HomeMeal&nbsp;GmbH
+                        </h2>
+                        <hr class="card-divider">
+                        <h3 class="card-subtitle">Dart&nbsp;/&nbsp;Flutter Developer</h3>
+                        <p class="jobs-date">September&nbsp;2022&nbsp;-&nbsp;January 2023</p>
+                        <p class="card-text">
+                            I’ve been working as a full stack developer in <span class="blue">Dart/Flutter</span>
+                            making database backup security measures and some interfaces.
+                            <br>
+                            <br>
+                            I’ve also been using technologies like <span class="red">Firebase Cloud Functions</span> and
+                            <span class="green">Google APIs</span>.
+                        </p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.linkedin.com/company/farmlyplace/">
+                <div class="container dark-background card">
+                    <div class="container card-body">
+                        <h3 class="card-title">FarmlyPlace&nbsp;GmbH</h3>
+                        <hr class="card-divider">
+                        <h2 class="card-subtitle">C&nbsp;/&nbsp;C++ Developer</h2>
+                        <p class="jobs-date">October&nbsp;2022&nbsp;-&nbsp;November&nbsp;2022</p>
+                        <p class="card-text">
+                            I’ve developed in <span class="mysql">C/C++</span> utilizing Arduino technologies.
+                            <br>
+                            <br>
+                            I’ve also learnt <span class="red">Solidity</span> making smart contracts.
+                        </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <!-------------Education---------------->
+        <div>
+            <!-----------University-------------->
+            <section>
+                <h2><a href="https://www.unipi.it/">Università di Pisa</a></h2>
+                <div>
+                    <h3><a href=https://www.unipi.it/index.php/lauree/regolamento/10298">Laurea Triennale -
+                        Scienze e Tecnologie Informatiche</a></h3>
+                    <p class="EducationDate">Settembre 2022 - <var>Adesso</var></p>
+                </div>
+            </section>
 
-        <section>
-            <h2>Dart/Flutter Developer</h2>
-            <div>
-                <h3>FarmlyPlace&nbsp;GmbH</h3>
-                <p class="JobsDate">October 2022 - November 2022</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, neque!</p></div>
-        </section>
-    </div>
+            <!-------------High School---------------->
+            <section>
+                <h2><a href="https://www.unipi.it/">ITIS Galileo Galilei - Livorno</a></h2>
+                <div>
+                    <h3><a href="https://www.galileilivorno.edu.it/portale/index.php/it/">Diploma - Perito
+                        Informatico</a></h3>
+                    <p class="EducationDate">Settembre 2017 - Luglio 2022</p>
+                </div>
+            </section>
 
-    <!-------------Education---------------->
-    <div>
-        -----------University--------------
-        <section>
-            <h2><a href="https://www.unipi.it/">Università di Pisa</a></h2>
-            <div>
-                <h3><a href=https://www.unipi.it/index.php/lauree/regolamento/10298">Laurea Triennale -
-                    Scienze e Tecnologie Informatiche</a></h3>
-                <p class="EducationDate">Settembre 2022 - <var>Adesso</var></p>
-            </div>
-        </section>
+            <!-----------Cisco Academy-------------->
+            <section>
+                <h2><a href="https://www.unipi.it/">Cisco Academy</a></h2>
+                <div>
+                    <ul>
+                        <li>
+                            <h4><a href="https://www.galileilivorno.edu.it/portale/index.php/it/">CCNA:
+                                Enterprise Networking, Security and Automation</a></h4>
+                            <p class="EducationDate">Settembre 2021 - Aprile 2022</p>
+                        </li>
+                        <li>
+                            <h4><a href="https://www.galileilivorno.edu.it/portale/index.php/it/">CCNA:
+                                Switching, Routing and Wireless Essentials</a></h4>
+                            <p class="EducationDate">Settembre 2020 - Aprile 2021</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
 
-        <!-------------High School---------------->
-        <section>
-            <h2><a href="https://www.unipi.it/">ITIS Galileo Galilei - Livorno</a></h2>
-            <div>
-                <h3><a href="https://www.galileilivorno.edu.it/portale/index.php/it/">Diploma - Perito
-                    Informatico</a></h3>
-                <p class="EducationDate">Settembre 2017 - Luglio 2022</p>
-            </div>
-        </section>
-
-        -----------Cisco Academy--------------
-        <section>
+            <!-------------Udemy---------------->
+            <!--<section>
             <h2><a href="https://www.unipi.it/">Cisco Academy</a></h2>
             <div>
                 <ul>
                     <li>
-                        <h4><a href="https://www.galileilivorno.edu.it/portale/index.php/it/">CCNA:
-                            Enterprise Networking, Security and Automation</a></h4>
+                        <h4><a href="https://www.galileilivorno.edu.it/portale/index.php/it/">CCNA: Enterprise Networking, Security and Automation</a></h4>
                         <p class="EducationDate">Settembre 2021 - Aprile 2022</p>
                     </li>
                     <li>
-                        <h4><a href="https://www.galileilivorno.edu.it/portale/index.php/it/">CCNA:
-                            Switching, Routing and Wireless Essentials</a></h4>
+                        <h4><a href="https://www.galileilivorno.edu.it/portale/index.php/it/">CCNA: Switching, Routing and Wireless Essentials</a></h4>
                         <p class="EducationDate">Settembre 2020 - Aprile 2021</p>
                     </li>
                 </ul>
             </div>
-        </section>
+            </section>-->
+            <!--    </div>-->
 
-        <!-------------Udemy---------------->
-        <!--<section>
-        <h2><a href="https://www.unipi.it/">Cisco Academy</a></h2>
-        <div>
-            <ul>
-                <li>
-                    <h4><a href="https://www.galileilivorno.edu.it/portale/index.php/it/">CCNA: Enterprise Networking, Security and Automation</a></h4>
-                    <p class="EducationDate">Settembre 2021 - Aprile 2022</p>
-                </li>
-                <li>
-                    <h4><a href="https://www.galileilivorno.edu.it/portale/index.php/it/">CCNA: Switching, Routing and Wireless Essentials</a></h4>
-                    <p class="EducationDate">Settembre 2020 - Aprile 2021</p>
-                </li>
-            </ul>
+
         </div>
-        </section>-->
-        <!--    </div>-->
-
-
     </div>
 </main>
 
