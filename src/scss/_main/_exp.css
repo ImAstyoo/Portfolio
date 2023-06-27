@@ -1,0 +1,102 @@
+#_explang, #_expfrmwk, #_expothsks{
+    display: block;
+}
+
+#_explang, #_expfrmwk, #_expothsks h2{
+    width: 20rem;
+    height: auto;
+}
+
+#_expmaincontainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.expul{
+    list-style: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.expli{
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 1rem;
+    border: none;
+    background-color: var(--darkbackground);
+}
+
+.expli p{
+    margin: 0;
+    padding: 0;
+    background-color: var(--darkbackground);
+}
+
+.expli div{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.progress-bar{
+    border-radius: 5px;
+    border: 2px solid var(--primary);
+    height: 10px;
+}
+
+.basic {
+    width: var(--basic);
+}
+.basic-medium {
+    width: var(--basic-medium);
+}
+.medium{
+    width: var(--medium);
+}
+.medium-advanced{
+    width: var(--medium-advanced);
+}
+.advanced{
+    width: var(--advanced);
+}
+.master{
+    width: var(--master);
+}
+
+.primary{
+    background-color: var(--primary);
+}
+
+.secondary{
+    background-color: var(--secondary);
+}
+
+.darkblue{
+    background-color: #0E2954;
+}
+
+.blue{
+    background-color: #0079FF;
+}
+
+.green{
+    background-color: #42FF83;
+}
+
+.yellow{
+    background-color: #F6FA70;
+}
+
+.red{
+    background-color: #FF0060;
+}
+
+.white{
+    background-color: #FFFFFF;
+}
+
+.mysql{
+    background-color: #00758F;
+}

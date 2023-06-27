@@ -11,7 +11,23 @@
     --text: #FFF;
     --background: #121212;
     --darkbackground: #070707;
+
+    --basic: 25%;
+    --basic-medium: 45%;
+    --medium: 60%;
+    --medium-advanced: 75%;
+    --advanced: 80%;
+    --master: 90%;
+    --god: 100%;
 }
+
+.primary-color{
+    color: var(--primary);
+}
+.secondary-color{
+    color: var(--secondary);
+}
+
 
 @media screen and (max-width: 1000px){
     #abmh{

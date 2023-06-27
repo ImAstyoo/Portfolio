@@ -18,14 +18,11 @@
     margin: 0;
 }
 
-.darkbackground > *{
-    padding: 5px;
-    margin-left: 20px;
+.dark-background >  *{
     background-color: var(--darkbackground);
     color: var(--text);
     border: 50px solid var(--darkbackground);
     border-radius: 15px;
-    display: block;
     width: 100%;
     text-align: left;
 }
