@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="/src/scss/_sidebar.css">
     <!-- Main css -->
     <link rel="stylesheet" href="/src/scss/_main/_primg.css">
+    <link rel="stylesheet" href="/src/scss/_main/_exp.css">
     <link rel="stylesheet" href="/src/scss/_main/_abme.css">
     <link rel="stylesheet" href="/src/scss/_main/_smlinks.css">
     <link rel="stylesheet" href="/src/scss/_main/_mints.css">
@@ -87,12 +88,12 @@
     <div class="container">
         <!-------------About me---------------->
         <div class="container" id="_abmmc">
-<!--            <div class="container" id="_abmc">-->
+            <!--            <div class="container" id="_abmc">-->
 
-<!--                <h1>About&nbsp;me </h1>-->
-<!--                <img class="_profileImage" id="_abmi" src="src/imgs/mpic.jpg" alt="Profile Photo !">-->
-<!--            </div>-->
-            <div class="container darkbackground">
+            <!--                <h1>About&nbsp;me </h1>-->
+            <!--                <img class="_profileImage" id="_abmi" src="src/imgs/mpic.jpg" alt="Profile Photo !">-->
+            <!--            </div>-->
+            <div class="container dark-background" id="_abmpc">
                 <p>
                     I'm 20 and currently studying Computer Science at the <a id="_abml" href="http://www.unipi.it">University
                     of Pisa</a>
@@ -105,22 +106,26 @@
         <div class="container" id="_mimc">
             <div class="container">
                 <ul id="_miul">
-                    <li><div class="container primary-color">
-                        <h2>Coding</h2>
-                        <i class="fa-solid fa-code"></i>
-                    </div>
+                    <li>
+                        <div class="container primary-color">
+                            <h2>Coding</h2>
+                            <i class="fa-solid fa-code"></i>
+                        </div>
                     </li>
-                    <li><div class="container">
+                    <li>
+                        <div class="container">
                             <h2>Networking</h2>
                             <i class="fa-solid fa-terminal"></i>
                         </div>
                     </li>
-                    <li><div class="container primary-color">
+                    <li>
+                        <div class="container primary-color">
                             <h2>Music</h2>
                             <i class="fa-solid fa-music"></i>
                         </div>
                     </li>
-                    <li><div class="container">
+                    <li>
+                        <div class="container">
                             <h2>Motorbikes</h2>
                             <i class="fa-solid fa-person-biking"></i>
                         </div>
@@ -131,45 +136,108 @@
     </div>
 
     <!-------------Experience---------------->
-    <div>
-        <h1>Experience</h1>
-        <div>
+    <div class="container" id="_expmaincontainer">
+        <div class="container" id="_explang">
             <h2>Languages</h2>
-            <ul>
-                <li>"language1"
-                    <div>skill-bar</div>
-                </li>
-                <li>"language2"
-                    <div>skill-bar</div>
-                </li>
-                <li>"language3"
-                    <div>skill-bar</div>
-                </li>
-            </ul>
-            <h2>Frameworks & Architectures</h2>
-            <ul>
-                <li>"Framework/Architecture1"
-                    <div>skill-bar</div>
-                </li>
-                <li>"Framework/Architecture2"
-                    <div>skill-bar</div>
-                </li>
-                <li>"Framework/Architecture3"
-                    <div>skill-bar</div>
-                </li>
-            </ul>
+            <div class="dark-background">
+                <ul class="expul">
+                    <li class="expli">
+                        <p>Dart</p>
+                        <div class="progress-bar god blue"></div>
+                    </li>
+                    <li class="expli">
+                        <p>Java</p>
+                        <div class="progress-bar advanced primary"></div>
+                    </li>
+                    <li class="expli">
+                        <p>C / C++</p>
+                        <div class="progress-bar advanced darkblue"></div>
+                    </li>
+                    <li class="expli">
+                        <p>Python</p>
+                        <div class="progress-bar medium red"></div>
+                    </li>
+                    <li class="expli">
+                        <p>HTML & CSS</p>
+                        <div class="progress-bar master yellow"></div>
+                    </li>
+                    <li class="expli">
+                        <p>Javascript</p>
+                        <div class="progress-bar basic-medium yellow"></div>
+                    </li>
+                    <li class="expli">
+                        <p>MySQL</p>
+                        <div class="progress-bar medium mysql"></div>
+                    </li>
+                    <li class="expli">
+                        <p>PHP</p>
+                        <div class="progress-bar basic-medium php"></div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="container" id="_expfrmwk">
+            <h2>Frameworks&nbsp;&&nbsp;Architectures</h2>
+            <div class="dark-background">
+                <ul class="expul">
+                    <li class="expli">
+                        <p>Flutter</p>
+                        <div class="progress-bar god blue"></div>
+                    </li>
+                    <li class="expli">
+                        <p>Firebase</p>
+                        <div class="progress-bar advanced primary"></div>
+                    </li>
+                    <li class="expli">
+                        <p>Flask</p>
+                        <div class="progress-bar medium white"></div>
+                    </li>
+                    <li class="expli">
+                        <p>Vue.js</p>
+                        <div class="progress-bar basic green"></div>
+                    </li>
+                    <li class="expli">
+                        <p>Docker</p>
+                        <div class="progress-bar advanced blue"></div>
+                    </li>
+                    <li class="expli">
+                        <p>Git / Github</p>
+                        <div class="progress-bar master secondary"></div>
+                    </li>
+                    <li class="expli">
+                        <p>SVN</p>
+                        <div class="progress-bar basic-medium red"></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container" id="_expothsks">
             <h2>Other skills</h2>
-            <ul>
-                <li>"Skill 1"
-                    <div>skill-bar</div>
-                </li>
-                <li>"Skill 2"
-                    <div>skill-bar</div>
-                </li>
-                <li>"Skill 3"
-                    <div>skill-bar</div>
-                </li>
-            </ul>
+            <div class="dark-background">
+                <ul class="expul">
+                    <li class="expli">
+                        <p>Linux</p>
+                        <div class="progress-bar advanced yellow"></div>
+                    </li>
+                    <li class="expli">
+                        <p>Windows PowerShell</p>
+                        <div class="progress-bar medium blue"></div>
+                    </li>
+                    <li class="expli">
+                        <p>Slack</p>
+                        <div class="progress-bar master primary"></div>
+                    </li>
+                    <li class="expli">
+                        <p>Oracle VM</p>
+                        <div class="progress-bar basic-medium darkblue"></div>
+                    </li>
+                    <li class="expli">
+                        <p>Jetbrains / Toolbox</p>
+                        <div class="progress-bar master jetbrains"></div>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 
