@@ -29,3 +29,8 @@
     display: block;
 }
 
+#_abmpc > p > span{
+    background-color: var(--darkbackground);
+    float: right;
+}
+
