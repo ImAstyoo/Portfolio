@@ -65,38 +65,4 @@
     width: var(--master);
 }
 
-.primary{
-    background-color: var(--primary);
-}
 
-.secondary{
-    background-color: var(--secondary);
-}
-
-.darkblue{
-    background-color: #0E2954;
-}
-
-.blue{
-    background-color: #0079FF;
-}
-
-.green{
-    background-color: #42FF83;
-}
-
-.yellow{
-    background-color: #F6FA70;
-}
-
-.red{
-    background-color: #FF0060;
-}
-
-.white{
-    background-color: #FFFFFF;
-}
-
-.mysql{
-    background-color: #00758F;
-}

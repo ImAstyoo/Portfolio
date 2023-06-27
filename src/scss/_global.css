@@ -27,24 +27,57 @@
 .secondary-color{
     color: var(--secondary);
 }
-
-
-@media screen and (max-width: 1000px){
-    #abmh{
-        margin-right: 0%;
-    }
-
+.primary{
+    background-color: var(--primary);
 }
 
-.grid{
-    -webkit-box-pack: center;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+.secondary{
+    background-color: var(--secondary);
 }
 
+.darkblue{
+    background-color: #0E2954;
+    color: #0E2954;
+}
+
+.blue{
+    background-color: #0079FF;
+    color: #0079FF;
+}
+
+.green{
+    background-color: #42FF83;
+    color: #42FF83;
+}
+
+.yellow{
+    background-color: #F6FA70;
+    color: #F6FA70;
+}
+
+.red{
+    background-color: #FF0060;
+    color: #FF0060;
+}
+
+.white{
+    background-color: #FFFFFF;
+    color: #FFFFFF;
+}
+
+.mysql{
+    background-color: #00758F;
+    color: #00758F;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.block{
+    display: block;
+}
 
 .container > *{
     display: flex;
