@@ -5,23 +5,25 @@
     <title>This is me !</title>
     <script src="https://kit.fontawesome.com/da3b347f80.js" crossorigin="anonymous"></script>
     <!-- Global css -->
-    <link rel="stylesheet" href="/src/scss/_global.css">
+    <link rel="stylesheet" href="/src/css/_global.css">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300&family=Trirong:ital,wght@0,400;0,700;1,400;1,700&display=swap"
           rel="stylesheet">
     <!-- Sidebar css -->
-    <link rel="stylesheet" href="/src/scss/_sidebar.css">
+    <link rel="stylesheet" href="/src/css/_sidebar.css">
     <!-- Main css -->
-    <link rel="stylesheet" href="/src/scss/_main/_primg.css">
-    <link rel="stylesheet" href="/src/scss/_main/_exp.css">
-    <link rel="stylesheet" href="/src/scss/_main/_abme.css">
-    <link rel="stylesheet" href="/src/scss/_main/_smlinks.css">
-    <link rel="stylesheet" href="/src/scss/_main/_mints.css">
-    <link rel="stylesheet" href="/src/scss/_main/_gcv.css">
-    <link rel="stylesheet" href="/src/scss/_main/_typewriter.css">
-    <link rel="stylesheet" href="/src/scss/_main/_work.css">
-    <link rel="stylesheet" href="/src/scss/_main/_main.css">
+    <link rel="stylesheet" href="/src/css/_main/_primg.css">
+    <link rel="stylesheet" href="/src/css/_main/_exp.css">
+    <link rel="stylesheet" href="/src/css/_main/_abme.css">
+    <link rel="stylesheet" href="/src/css/_main/_smlinks.css">
+    <link rel="stylesheet" href="/src/css/_main/_mints.css">
+    <link rel="stylesheet" href="/src/css/_main/_gcv.css">
+    <link rel="stylesheet" href="/src/css/_main/_typewriter.css">
+    <link rel="stylesheet" href="/src/css/_main/_work.css">
+    <link rel="stylesheet" href="/src/css/_main/_main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Footer -->
+    <link rel="stylesheet" href="/src/css/_footer/_footer.css">
     <!-- Scripts -->
     <script src="src/js/_typewriter.js"></script>
     <script src="src/js/_bounce.js"></script>
@@ -48,7 +50,7 @@
         <h1>Daniele Pervan</h1>
         <!-------------Typewriter---------------->
         <div class="typewriter">
-            <p class="_typewriter" data-period="2000"
+            <p class="_typewriter" data-period="5000"
                data-type='[ "Hi, I&#39;m Daniele.",
                "I like video games.",
                "I like pizza too"]'>
@@ -57,7 +59,7 @@
         </div>
         <div class="container _smiContainer">
             <!-------------Social Media Icons Links---------------->
-            <ul class="_smiUL">
+            <ul class="_smiUL" id="contact-Me">
                 <li class="_smIcon">
                     <a href="https://www.linkedin.com/in/daniele-pervan-0595011b3/">
                         <i class="fa-brands fa-linkedin _smi"></i>
@@ -132,6 +134,7 @@
             </div>
         </div>
     </div>
+    <hr class="_separator">
     <!-------------Experience---------------->
     <div class="container" id="_expmaincontainer">
         <div class="container" id="_explang">
@@ -244,11 +247,11 @@
             </div>
         </div>
     </div>
-
+    <hr class="_separator">
     <!-------------Work Experience---------------->
     <div class="container block">
         <h1 id="_work-experience-h1">Work Experience</h1>
-        <div class="container flex" id="_workbigcontainer">
+        <div class="container block" id="_workbigcontainer">
             <a href="https://www.linkedin.com/company/homemealdeal/">
                 <div class="container dark-background card">
                     <div class="container card-body">
@@ -285,79 +288,11 @@
                 </div>
             </a>
         </div>
-        <!-------------Education---------------->
-        <div>
-            <!-----------University-------------->
-            <section>
-                <h2><a href="https://www.unipi.it/">Università di Pisa</a></h2>
-                <div>
-                    <h3><a href=https://www.unipi.it/index.php/lauree/regolamento/10298">Laurea Triennale -
-                        Scienze e Tecnologie Informatiche</a></h3>
-                    <p class="EducationDate">Settembre 2022 - <var>Adesso</var></p>
-                </div>
-            </section>
-
-            <!-------------High School---------------->
-            <section>
-                <h2><a href="https://www.unipi.it/">ITIS Galileo Galilei - Livorno</a></h2>
-                <div>
-                    <h3><a href="https://www.galileilivorno.edu.it/portale/index.php/it/">Diploma - Perito
-                        Informatico</a></h3>
-                    <p class="EducationDate">Settembre 2017 - Luglio 2022</p>
-                </div>
-            </section>
-
-            <!-----------Cisco Academy-------------->
-            <section>
-                <h2><a href="https://www.unipi.it/">Cisco Academy</a></h2>
-                <div>
-                    <ul>
-                        <li>
-                            <h4><a href="https://www.galileilivorno.edu.it/portale/index.php/it/">CCNA:
-                                Enterprise Networking, Security and Automation</a></h4>
-                            <p class="EducationDate">Settembre 2021 - Aprile 2022</p>
-                        </li>
-                        <li>
-                            <h4><a href="https://www.galileilivorno.edu.it/portale/index.php/it/">CCNA:
-                                Switching, Routing and Wireless Essentials</a></h4>
-                            <p class="EducationDate">Settembre 2020 - Aprile 2021</p>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-
-            <!-------------Udemy---------------->
-            <!--<section>
-            <h2><a href="https://www.unipi.it/">Cisco Academy</a></h2>
-            <div>
-                <ul>
-                    <li>
-                        <h4><a href="https://www.galileilivorno.edu.it/portale/index.php/it/">CCNA: Enterprise Networking, Security and Automation</a></h4>
-                        <p class="EducationDate">Settembre 2021 - Aprile 2022</p>
-                    </li>
-                    <li>
-                        <h4><a href="https://www.galileilivorno.edu.it/portale/index.php/it/">CCNA: Switching, Routing and Wireless Essentials</a></h4>
-                        <p class="EducationDate">Settembre 2020 - Aprile 2021</p>
-                    </li>
-                </ul>
-            </div>
-            </section>-->
-            <!--    </div>-->
-
-
-        </div>
+        <hr class="_separator">
     </div>
 </main>
-
-<footer>
-    <!-------------Contact---------------->
-    <div>
-        <h1>Contact</h1>
-        <div>
-            <h3>Email</h3>
-            <p>Pervan.daniele@gmail.com</p>
-        </div>
-    </div>
+<footer class="container footer-darkBG">
+    <p>&copy; 2023 - Made by Daniele Pervan</p>
 </footer>
 </body>
 </html>

@@ -1,0 +1,13 @@
+footer > div > a{
+    scroll-behavior: smooth;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-darkBG{
+    background-color: transparent;
+    width: 100%;
+}
+
+.footer-darkBG > p{
+    background-color: transparent;
+}

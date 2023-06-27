@@ -30,3 +30,10 @@
 .primary-color > i{
     color: var(--primary);
 }
+
+._separator{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 60rem;
+    border-color: var(--secondary);
+}
